@@ -78,3 +78,21 @@ background:#357ab8;
 .menu-bouton:hover{
 background:#3a7bb3;
 }
+.menu-bouton{
+display:block !important;
+width:100%;
+background:#4E8FC7;
+color:white !important;
+padding:18px;
+margin:12px 0;
+border-radius:12px;
+text-align:center;
+font-size:20px;
+font-weight:bold;
+text-decoration:none;
+box-sizing:border-box;
+}
+
+.menu-bouton:hover{
+background:#357ab8;
+}
