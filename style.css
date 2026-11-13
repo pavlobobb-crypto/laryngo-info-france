@@ -58,6 +58,12 @@ a {
 a:hover {
     text-decoration: underline;
     color: #003d6b;
+    a:focus,
+.button:focus,
+summary:focus {
+    outline: 3px solid #005fa3;
+    outline-offset: 3px;
+}
 }
 
 /* GRILLES */
