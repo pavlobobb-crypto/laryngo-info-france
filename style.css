@@ -111,9 +111,10 @@ summary:focus {
 /* BOUTONS */
 
 .button {
+    .button {
     display: inline-block;
     margin-top: 12px;
-    padding: 10px 16px;
+    padding: 12px 18px;
     background: #FFD700;
     color: #000;
     font-weight: bold;
