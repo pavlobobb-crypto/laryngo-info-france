@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: system-ui, Arial, Helvetica, sans-serif;
     margin: 0;
     padding: 0;
     background: #f5f7fa;
@@ -58,12 +58,15 @@ a {
 a:hover {
     text-decoration: underline;
     color: #003d6b;
-    a:focus,
+}
+
+/* ACCESSIBILITÉ CLAVIER */
+
+a:focus,
 .button:focus,
 summary:focus {
     outline: 3px solid #005fa3;
     outline-offset: 3px;
-}
 }
 
 /* GRILLES */
@@ -80,7 +83,7 @@ summary:focus {
     background: white;
     padding: 20px;
     border-radius: 14px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     transition: transform 0.2s ease;
 }
 
@@ -111,7 +114,6 @@ summary:focus {
 /* BOUTONS */
 
 .button {
-    .button {
     display: inline-block;
     margin-top: 12px;
     padding: 12px 18px;
@@ -150,7 +152,7 @@ details {
     padding: 14px 16px;
     border-radius: 12px;
     margin-bottom: 12px;
-    box-shadow: 0 2px 6px rgba(0,0,0,0.06);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.06);
 }
 
 summary {
@@ -174,6 +176,14 @@ details ul {
 
 ul {
     padding-left: 25px;
+}
+
+/* IMAGES */
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* SÉPARATEURS */
@@ -222,8 +232,4 @@ footer {
         display: block;
         text-align: center;
     }
-}
-img {
-    max-width: 100%;
-    height: auto;
 }
