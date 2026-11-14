@@ -1,0 +1,17 @@
+{
+  "name": "Laryngo Info France",
+  "short_name": "LIF",
+  "description": "Informations et ressources sur le cancer du larynx et la laryngectomie.",
+  "start_url": "/laryngo-info-france/",
+  "display": "standalone",
+  "background_color": "#4E8FC7",
+  "theme_color": "#4E8FC7",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
