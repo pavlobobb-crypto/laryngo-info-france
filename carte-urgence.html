@@ -1,234 +1,151 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>🚨 Carte d'urgence</title>
-<p><strong>Dernière mise à jour :</strong> 14 novembre 2026</p>
-<link rel="stylesheet" href="style.css">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<title>Carte d'urgence - Laryngectomie Totale</title>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:white;
+    margin:20px;
+}
+
+.carte{
+    width:850px;
+    margin:auto;
+    border:4px solid #c00000;
+    display:flex;
+}
+
+.face{
+    width:50%;
+    padding:25px;
+    box-sizing:border-box;
+}
+
+.recto{
+    background:#c00000;
+    color:white;
+}
+
+.verso{
+    background:white;
+    color:black;
+    border-left:4px dashed #c00000;
+}
+
+h1{
+    text-align:center;
+    margin-top:0;
+    font-size:36px;
+}
+
+.message{
+    text-align:center;
+    font-size:34px;
+    font-weight:bold;
+    margin:25px 0;
+}
+
+.info{
+    font-size:22px;
+    line-height:1.8;
+    font-weight:bold;
+}
+
+.champ{
+    margin-top:30px;
+    font-size:22px;
+}
+
+.ligne{
+    border-bottom:2px solid #000;
+    height:35px;
+    margin-top:5px;
+}
+
+@media print{
+    body{
+        margin:0;
+    }
+
+    .carte{
+        width:100%;
+        page-break-inside:avoid;
+    }
+}
+
+</style>
 
 </head>
 
 <body>
 
-<p>
-<a class="button" href="index.html">
-🏠 Accueil
-</a>
-</p>
+<div class="carte">
 
-<div class="hero">
+<div class="face recto">
 
-<h1>🚨 Carte d'urgence laryngectomisé</h1>
+<h1>🚨 URGENCE</h1>
 
-<p>
-Conservez cette carte sur vous en permanence afin que les secours puissent immédiatement comprendre que vous respirez uniquement par le cou.
-</p>
+<div class="message">
+
+JE RESPIRE<br>
+PAR LE COU
 
 </div>
 
-<main>
+<div class="info">
 
-<h2>Pourquoi cette carte ?</h2>
+LARYNGECTOMIE TOTALE
 
-<p>
-Une personne laryngectomisée totale respire uniquement par une stomie située au niveau du cou.
-</p>
+<br><br>
 
-<p>
-En cas de malaise, d'accident ou de perte de connaissance, cette information peut être essentielle pour les secouristes, les soignants et les témoins.
-</p>
+❌ PAS DE RESPIRATION PAR LE NEZ
 
-<p>
-Cette carte a pour objectif de transmettre rapidement cette information vitale.
-</p>
+<br><br>
 
-<p>
-<button onclick="window.print()">
-🖨️ Imprimer la carte
-</button>
-</p>
+❌ PAS DE RESPIRATION PAR LA BOUCHE
 
-<hr>
+<br><br>
 
-<h2>💳 Carte portefeuille - RECTO</h2>
-
-<div class="emergency-box">
-
-<h3>🚨 INFORMATION VITALE</h3>
-
-<p>
-<strong>JE RESPIRE PAR LE COU</strong>
-</p>
-
-<p>
-Je suis laryngectomisé(e).
-</p>
-
-<p>
-Mes poumons ne sont plus reliés à mon nez ni à ma bouche.
-</p>
-
-<p>
-⚠️ NE PAS VENTILER PAR LE NEZ OU PAR LA BOUCHE
-</p>
-
-<p>
-✅ OXYGÉNATION PAR LA STOMIE DU COU
-</p>
-
-<p>
-🚑 INFORMER LES SECOURS
-</p>
-
-<p>
-15 • 112
-</p>
+✅ TRACHÉOSTOME =<br>
+SEULE VOIE RESPIRATOIRE
 
 </div>
 
-<hr>
+</div>
 
-<h2>💳 Carte portefeuille - VERSO</h2>
+<div class="face verso">
 
-<div class="card">
+<h1>🚨 URGENCE</h1>
 
-<p>
-<strong>💙 LARYNGO INFO FRANCE</strong>
-</p>
+<div class="champ">
+NOM
+<div class="ligne"></div>
+</div>
 
-<p>
-Nom :
-</p>
+<div class="champ">
+PRÉNOM
+<div class="ligne"></div>
+</div>
 
-<p>
-________________________________
-</p>
+<div class="champ">
+PERSONNE À PRÉVENIR
+<div class="ligne"></div>
+</div>
 
-<p>
-Prénom :
-</p>
-
-<p>
-________________________________
-</p>
-
-<p>
-Date de naissance :
-</p>
-
-<p>
-________________________________
-</p>
-
-<p>
-Personne à prévenir :
-</p>
-
-<p>
-________________________________
-</p>
-
-<p>
-Téléphone :
-</p>
-
-<p>
-________________________________
-</p>
-
-<p>
-Médecin :
-</p>
-
-<p>
-________________________________
-</p>
-
-<p>
-Téléphone :
-</p>
-
-<p>
-________________________________
-</p>
-
-<p>
-Informations médicales utiles :
-</p>
-
-<p>
-________________________________
-</p>
-
-<p>
-________________________________
-</p>
+<div class="champ">
+TÉLÉPHONE
+<div class="ligne"></div>
+</div>
 
 </div>
 
-<hr>
-<hr>
-
-<h2>📥 Téléchargements</h2>
-
-<div class="card">
-
-<h3>💳 Carte portefeuille</h3>
-
-<p>
-Format carte bancaire.
-À imprimer, découper et conserver dans votre portefeuille.
-</p>
-
-<p>
-PDF en préparation.
-</p>
-
 </div>
-
-<div class="card">
-
-<h3>📄 Fiche A4 d'urgence</h3>
-
-<p>
-Version grand format destinée au domicile,
-aux aidants et au dossier médical.
-</p>
-
-<p>
-PDF en préparation.
-</p>
-
-</div>
-<h2>📌 Conseils d'utilisation</h2>
-
-<ul>
-<li>Conservez cette carte dans votre portefeuille.</li>
-<li>Conservez également une copie dans votre véhicule ou votre sac.</li>
-<li>Informez vos proches de son existence.</li>
-<li>Montrez-la lors des consultations médicales si nécessaire.</li>
-</ul>
-
-<footer>
-
-<p>💙 Laryngo Info France</p>
-
-<p>
-Patients • Aidants • Professionnels • Secouristes
-</p>
-
-</footer>
-
-</main>
 
 </body>
 </html>
-<a href="mon-histoire.html">💙 Mon histoire</a>
-
-|
-
-<a href="sources.html">📚 Sources et références</a>
