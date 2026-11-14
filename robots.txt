@@ -1,1 +1,5 @@
+User-agent: *
 
+Allow: /
+
+Sitemap: https://pavlobobb-crypto.github.io/laryngo-info-france/sitemap.xml
