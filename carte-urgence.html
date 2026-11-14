@@ -2,82 +2,152 @@
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<title>Carte Urgence Laryngectomie</title>
+<title>Carte d'Urgence Laryngectomie Totale</title>
 
 <style>
 
-@page{
-    size:85mm 54mm;
-    margin:0;
+@page {
+    size: 140mm 90mm;
+    margin: 0;
 }
 
 body{
     margin:0;
-    padding:0;
+    padding:15mm;
     font-family:Arial, Helvetica, sans-serif;
+    background:white;
 }
 
-/* RECTO */
+.carte{
 
-.recto{
-    width:85mm;
-    height:54mm;
-    background:#c00000;
-    color:white;
+    width:140mm;
+    height:90mm;
+
+    border:2px solid #000;
+
+    display:flex;
+
+    position:relative;
+
+    margin:auto;
+}
+
+/* Trait de pliage */
+
+.carte::after{
+
+    content:"";
+
+    position:absolute;
+
+    left:70mm;
+    top:0;
+
+    height:100%;
+
+    border-left:2px dashed #666;
+}
+
+/* Volets */
+
+.volet{
+
+    width:70mm;
+    height:90mm;
+
     box-sizing:border-box;
-    padding:3mm;
-    page-break-after:always;
 }
 
-.recto h1{
-    margin:0 0 2mm 0;
-    text-align:center;
-    font-size:16pt;
-}
+/* Partie urgence */
 
 .urgence{
+
+    background:#c00000;
+    color:white;
+
     text-align:center;
-    font-size:20pt;
+
+    padding:8mm;
+}
+
+.urgence h1{
+
+    margin-top:0;
+    margin-bottom:10mm;
+
+    font-size:24px;
+}
+
+.respire{
+
+    font-size:30px;
+
     font-weight:bold;
+
     line-height:1.1;
-    margin-bottom:2mm;
+
+    margin-bottom:10mm;
 }
 
-.recto p{
-    margin:1mm 0;
-    font-size:9pt;
+.info{
+
+    font-size:14px;
+
     font-weight:bold;
+
+    line-height:1.8;
 }
 
-/* VERSO */
+/* Partie contact */
 
-.verso{
-    width:85mm;
-    height:54mm;
+.contact{
+
     background:white;
+
     color:black;
-    box-sizing:border-box;
-    padding:4mm;
-    border:2px solid #c00000;
-}
 
-.verso h2{
-    margin:0 0 4mm 0;
-    color:#c00000;
-    text-align:center;
-    font-size:14pt;
-}
-
-.ligne{
-    margin-top:3mm;
-    margin-bottom:5mm;
-    border-bottom:1px solid black;
-    height:5mm;
+    padding:8mm;
 }
 
 .label{
+
+    font-size:16px;
+
     font-weight:bold;
-    font-size:10pt;
+
+    margin-top:8mm;
+}
+
+.ligne{
+
+    margin-top:4mm;
+
+    border-bottom:2px solid black;
+
+    height:8mm;
+}
+
+.instructions{
+
+    text-align:center;
+
+    margin-top:8px;
+
+    color:#666;
+
+    font-size:12px;
+}
+
+@media print {
+
+body{
+    padding:0;
+}
+
+.instructions{
+    display:none;
+}
+
 }
 
 </style>
@@ -86,43 +156,62 @@ body{
 
 <body>
 
-<div class="recto">
+<div class="carte">
 
-<h1>🚨 URGENCE</h1>
+    <div class="volet urgence">
 
-<div class="urgence">
-JE RESPIRE<br>
-PAR LE COU
+        <h1>🚨 URGENCE</h1>
+
+        <div class="respire">
+
+            JE RESPIRE<br>
+            PAR LE COU
+
+        </div>
+
+        <div class="info">
+
+            LARYNGECTOMIE TOTALE
+
+            <br><br>
+
+            PAS DE RESPIRATION PAR LE NEZ
+
+            <br><br>
+
+            PAS DE RESPIRATION PAR LA BOUCHE
+
+        </div>
+
+    </div>
+
+    <div class="volet contact">
+
+        <div class="label">
+            PERSONNE À PRÉVENIR :
+        </div>
+
+        <div class="ligne"></div>
+
+        <div class="label">
+            CONTACT :
+        </div>
+
+        <div class="ligne"></div>
+
+        <div class="label">
+            TÉLÉPHONE :
+        </div>
+
+        <div class="ligne"></div>
+
+    </div>
+
 </div>
 
-<p>LARYNGECTOMIE TOTALE</p>
-
-<p>❌ PAS DE RESPIRATION PAR LE NEZ</p>
-
-<p>❌ PAS DE RESPIRATION PAR LA BOUCHE</p>
-
-<p>✅ TRACHÉOSTOME = SEULE VOIE RESPIRATOIRE</p>
-
-</div>
-
-<div class="verso">
-
-<h2>🚨 URGENCE</h2>
-
-<div class="label">NOM :</div>
-<div class="ligne"></div>
-
-<div class="label">PRÉNOM :</div>
-<div class="ligne"></div>
-
-<div class="label">CONTACT :</div>
-<div class="ligne"></div>
-
-<div class="label">TÉLÉPHONE :</div>
-<div class="ligne"></div>
-
+<div class="instructions">
+✂️ Imprimer, plier sur le pointillé central et plastifier si souhaité.
 </div>
 
 </body>
 </html>
-
