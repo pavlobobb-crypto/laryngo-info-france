@@ -1,1 +1,423 @@
+<!DOCTYPE html>
+<html lang="fr">
 
+<head>
+
+<meta charset="utf-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Laryngo Info France</title>
+
+<meta name="description" content="Annuaire national du cancer du larynx, de la laryngectomie et de la rééducation en France">
+
+<style>
+
+:root{
+
+--bleu:#0B5ED7;
+--bleu-clair:#EAF4FF;
+
+--vert:#198754;
+
+--rouge:#DC3545;
+
+--texte:#1C2434;
+
+--gris:#F5F7FA;
+
+--carte:#FFFFFF;
+
+}
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+
+font-family:
+Segoe UI,
+Arial,
+sans-serif;
+
+background:var(--gris);
+
+color:var(--texte);
+
+line-height:1.6;
+
+}
+
+header{
+
+background:
+linear-gradient(
+135deg,
+#0B5ED7,
+#0DCAF0
+);
+
+color:white;
+
+padding:60px 20px;
+
+text-align:center;
+
+}
+
+header h1{
+
+font-size:3rem;
+
+margin-bottom:15px;
+
+}
+
+header p{
+
+max-width:900px;
+
+margin:auto;
+
+}
+
+.search-zone{
+
+max-width:900px;
+
+margin:30px auto 0 auto;
+
+}
+
+#searchInput{
+
+width:100%;
+
+padding:18px;
+
+border:none;
+
+border-radius:12px;
+
+font-size:1rem;
+
+}
+
+.top-nav{
+
+background:white;
+
+position:sticky;
+
+top:0;
+
+z-index:999;
+
+box-shadow:0 2px 10px rgba(0,0,0,.08);
+
+}
+
+.top-nav ul{
+
+display:flex;
+
+gap:10px;
+
+overflow:auto;
+
+list-style:none;
+
+padding:10px;
+
+}
+
+.top-nav a{
+
+text-decoration:none;
+
+color:var(--bleu);
+
+font-weight:bold;
+
+background:var(--bleu-clair);
+
+padding:10px 15px;
+
+border-radius:10px;
+
+white-space:nowrap;
+
+display:block;
+
+}
+
+.container{
+
+max-width:1400px;
+
+margin:auto;
+
+padding:40px 20px;
+
+}
+
+.region{
+
+margin-bottom:80px;
+
+}
+
+.region-title{
+
+font-size:2rem;
+
+margin-bottom:25px;
+
+border-bottom:3px solid var(--bleu);
+
+padding-bottom:10px;
+
+}
+
+.section-title{
+
+font-size:1.3rem;
+
+color:var(--bleu);
+
+margin-bottom:15px;
+
+margin-top:20px;
+
+}
+
+.grid{
+
+display:grid;
+
+grid-template-columns:
+repeat(
+auto-fit,
+minmax(320px,1fr)
+);
+
+gap:20px;
+
+}
+
+.card{
+
+background:white;
+
+padding:24px;
+
+border-radius:18px;
+
+box-shadow:
+0 6px 16px rgba(0,0,0,.08);
+
+transition:.3s;
+
+}
+
+.card:hover{
+
+transform:translateY(-3px);
+
+}
+
+.card h3{
+
+color:var(--bleu);
+
+margin-bottom:12px;
+
+}
+
+.card p{
+
+margin-bottom:10px;
+
+}
+
+.tags{
+
+display:flex;
+
+gap:8px;
+
+flex-wrap:wrap;
+
+margin-top:10px;
+
+}
+
+.tag{
+
+padding:6px 10px;
+
+border-radius:25px;
+
+background:var(--bleu-clair);
+
+font-size:.85rem;
+
+}
+
+.links{
+
+margin-top:15px;
+
+display:flex;
+
+gap:10px;
+
+flex-wrap:wrap;
+
+}
+
+.btn{
+
+display:inline-block;
+
+padding:10px 15px;
+
+border-radius:10px;
+
+text-decoration:none;
+
+font-weight:bold;
+
+}
+
+.btn-site{
+
+background:var(--bleu);
+
+color:white;
+
+}
+
+.btn-mail{
+
+background:var(--vert);
+
+color:white;
+
+}
+
+footer{
+
+background:#10243F;
+
+color:white;
+
+padding:50px 20px;
+
+margin-top:60px;
+
+}
+
+footer p{
+
+max-width:900px;
+
+margin:auto;
+
+text-align:center;
+
+}
+
+@media(max-width:768px){
+
+header h1{
+
+font-size:2rem;
+
+}
+
+.region-title{
+
+font-size:1.5rem;
+
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+
+<h1>
+Laryngo Info France
+</h1>
+
+<p>
+
+Annuaire national dédié aux personnes concernées par
+le cancer du larynx,
+la laryngectomie,
+les cancers ORL,
+la rééducation,
+les associations de patients
+et les ressources d'accompagnement.
+
+</p>
+
+<div class="search-zone">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Rechercher une région, une ville, un établissement..."
+>
+
+</div>
+
+</header>
+
+<nav class="top-nav">
+
+<ul>
+
+<li><a href="#bretagne">Bretagne</a></li>
+
+<li><a href="#pays-de-la-loire">Pays de la Loire</a></li>
+
+<li><a href="#ile-de-france">Île‑de‑France</a></li>
+
+<li><a href="#hauts-de-france">Hauts‑de‑France</a></li>
+
+<li><a href="#grand-est">Grand Est</a></li>
+
+<li><a href="#bourgogne-franche-comte">Bourgogne‑Franche‑Comté</a></li>
+
+<li><a href="#centre-val-de-loire">Centre‑Val de Loire</a></li>
+
+<li><a href="#nouvelle-aquitaine">Nouvelle‑Aquitaine</a></li>
+
+<li><a href="#occitanie">Occitanie</a></li>
+
+<li><a href="#paca">PACA</a></li>
+
+<li><a href="#normandie">Normandie</a></li>
+
+<li><a href="#corse">Corse</a></li>
+
+</ul>
+
+</nav>
+
+<div class="container">
+
+<!--
+COLLER ICI LE BLOC 2
+(BRETAGNE + PAYS DE LA LOIRE)
+-->
