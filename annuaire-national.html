@@ -1617,3 +1617,79 @@ Site web
 </div>
 
 </section>  
+</div>
+
+<footer>
+
+<p>
+
+Laryngo Info France © 2026
+
+<br><br>
+
+Annuaire national des ressources relatives
+au cancer du larynx,
+à la laryngectomie,
+à la rééducation,
+aux associations de patients,
+aux centres ORL spécialisés
+et aux organismes d'accompagnement.
+
+<br><br>
+
+Les informations sont fournies à titre informatif.
+
+Vérifiez systématiquement les coordonnées
+et les modalités de prise en charge
+directement auprès des organismes concernés.
+
+Les décisions médicales doivent toujours être prises
+avec les professionnels de santé assurant votre suivi.
+
+</p>
+
+</footer>
+
+<script>
+
+const searchInput =
+document.getElementById("searchInput");
+
+searchInput.addEventListener(
+"keyup",
+function(){
+
+let filter =
+searchInput.value.toLowerCase();
+
+let regions =
+document.querySelectorAll(".region");
+
+regions.forEach(function(region){
+
+let text =
+region.innerText.toLowerCase();
+
+if(
+text.indexOf(filter) > -1
+){
+
+region.style.display="block";
+
+}
+else{
+
+region.style.display="none";
+
+}
+
+});
+
+}
+);
+
+</script>
+
+</body>
+
+</html>
