@@ -9,7 +9,7 @@
 
 <title>Laryngo Info France</title>
 
-<meta name="description" content="Annuaire national du cancer du larynx, de la laryngectomie et de la rééducation en France">
+<meta name="description" content="Annuaire national des centres ORL, associations et ressources pour les personnes concernées par le cancer du larynx et la laryngectomie.">
 
 <style>
 
@@ -17,15 +17,9 @@
 
 --bleu:#0B5ED7;
 --bleu-clair:#EAF4FF;
-
 --vert:#198754;
-
---rouge:#DC3545;
-
 --texte:#1C2434;
-
 --gris:#F5F7FA;
-
 --carte:#FFFFFF;
 
 }
@@ -38,32 +32,23 @@ box-sizing:border-box;
 
 body{
 
-font-family:
-Segoe UI,
-Arial,
-sans-serif;
-
+font-family:Segoe UI, Arial, sans-serif;
 background:var(--gris);
-
 color:var(--texte);
-
 line-height:1.6;
 
 }
 
 header{
 
-background:
-linear-gradient(
+background:linear-gradient(
 135deg,
 #0B5ED7,
 #0DCAF0
 );
 
 color:white;
-
 padding:60px 20px;
-
 text-align:center;
 
 }
@@ -71,7 +56,6 @@ text-align:center;
 header h1{
 
 font-size:3rem;
-
 margin-bottom:15px;
 
 }
@@ -79,7 +63,6 @@ margin-bottom:15px;
 header p{
 
 max-width:900px;
-
 margin:auto;
 
 }
@@ -87,7 +70,6 @@ margin:auto;
 .search-zone{
 
 max-width:900px;
-
 margin:30px auto 0 auto;
 
 }
@@ -95,13 +77,9 @@ margin:30px auto 0 auto;
 #searchInput{
 
 width:100%;
-
 padding:18px;
-
 border:none;
-
 border-radius:12px;
-
 font-size:1rem;
 
 }
@@ -109,13 +87,9 @@ font-size:1rem;
 .top-nav{
 
 background:white;
-
 position:sticky;
-
 top:0;
-
 z-index:999;
-
 box-shadow:0 2px 10px rgba(0,0,0,.08);
 
 }
@@ -123,13 +97,9 @@ box-shadow:0 2px 10px rgba(0,0,0,.08);
 .top-nav ul{
 
 display:flex;
-
 gap:10px;
-
 overflow:auto;
-
 list-style:none;
-
 padding:10px;
 
 }
@@ -137,19 +107,12 @@ padding:10px;
 .top-nav a{
 
 text-decoration:none;
-
 color:var(--bleu);
-
 font-weight:bold;
-
 background:var(--bleu-clair);
-
 padding:10px 15px;
-
 border-radius:10px;
-
 white-space:nowrap;
-
 display:block;
 
 }
@@ -157,9 +120,7 @@ display:block;
 .container{
 
 max-width:1400px;
-
 margin:auto;
-
 padding:40px 20px;
 
 }
@@ -173,11 +134,8 @@ margin-bottom:80px;
 .region-title{
 
 font-size:2rem;
-
 margin-bottom:25px;
-
 border-bottom:3px solid var(--bleu);
-
 padding-bottom:10px;
 
 }
@@ -185,11 +143,8 @@ padding-bottom:10px;
 .section-title{
 
 font-size:1.3rem;
-
 color:var(--bleu);
-
 margin-bottom:15px;
-
 margin-top:20px;
 
 }
@@ -197,7 +152,6 @@ margin-top:20px;
 .grid{
 
 display:grid;
-
 grid-template-columns:
 repeat(
 auto-fit,
@@ -211,28 +165,15 @@ gap:20px;
 .card{
 
 background:white;
-
 padding:24px;
-
 border-radius:18px;
-
-box-shadow:
-0 6px 16px rgba(0,0,0,.08);
-
-transition:.3s;
-
-}
-
-.card:hover{
-
-transform:translateY(-3px);
+box-shadow:0 6px 16px rgba(0,0,0,.08);
 
 }
 
 .card h3{
 
 color:var(--bleu);
-
 margin-bottom:12px;
 
 }
@@ -243,68 +184,20 @@ margin-bottom:10px;
 
 }
 
-.tags{
-
-display:flex;
-
-gap:8px;
-
-flex-wrap:wrap;
-
-margin-top:10px;
-
-}
-
-.tag{
-
-padding:6px 10px;
-
-border-radius:25px;
-
-background:var(--bleu-clair);
-
-font-size:.85rem;
-
-}
-
 .links{
 
 margin-top:15px;
-
-display:flex;
-
-gap:10px;
-
-flex-wrap:wrap;
 
 }
 
 .btn{
 
 display:inline-block;
-
 padding:10px 15px;
-
 border-radius:10px;
-
 text-decoration:none;
-
 font-weight:bold;
-
-}
-
-.btn-site{
-
 background:var(--bleu);
-
-color:white;
-
-}
-
-.btn-mail{
-
-background:var(--vert);
-
 color:white;
 
 }
@@ -312,11 +205,8 @@ color:white;
 footer{
 
 background:#10243F;
-
 color:white;
-
 padding:50px 20px;
-
 margin-top:60px;
 
 }
@@ -324,9 +214,7 @@ margin-top:60px;
 footer p{
 
 max-width:900px;
-
 margin:auto;
-
 text-align:center;
 
 }
@@ -351,23 +239,18 @@ font-size:1.5rem;
 
 </head>
 
-<body>
+<body id="top">
 
 <header>
 
-<h1>
-Laryngo Info France
-</h1>
+<h1>Laryngo Info France</h1>
 
 <p>
 
-Annuaire national dédié aux personnes concernées par
-le cancer du larynx,
-la laryngectomie,
-les cancers ORL,
-la rééducation,
-les associations de patients
-et les ressources d'accompagnement.
+Annuaire national des centres ORL,
+centres de cancérologie,
+associations de patients
+et ressources d'accompagnement.
 
 </p>
 
@@ -376,7 +259,7 @@ et les ressources d'accompagnement.
 <input
 type="text"
 id="searchInput"
-placeholder="Rechercher une région, une ville, un établissement..."
+placeholder="Rechercher une région, une ville ou un établissement..."
 >
 
 </div>
@@ -389,25 +272,25 @@ placeholder="Rechercher une région, une ville, un établissement..."
 
 <li><a href="#bretagne">Bretagne</a></li>
 
+<li><a href="#normandie">Normandie</a></li>
+
 <li><a href="#pays-de-la-loire">Pays de la Loire</a></li>
 
-<li><a href="#ile-de-france">Île‑de‑France</a></li>
+<li><a href="#ile-de-france">Île-de-France</a></li>
 
-<li><a href="#hauts-de-france">Hauts‑de‑France</a></li>
+<li><a href="#hauts-de-france">Hauts-de-France</a></li>
 
 <li><a href="#grand-est">Grand Est</a></li>
 
-<li><a href="#bourgogne-franche-comte">Bourgogne‑Franche‑Comté</a></li>
+<li><a href="#bourgogne-franche-comte">Bourgogne-Franche-Comté</a></li>
 
-<li><a href="#centre-val-de-loire">Centre‑Val de Loire</a></li>
+<li><a href="#centre-val-de-loire">Centre-Val de Loire</a></li>
 
-<li><a href="#nouvelle-aquitaine">Nouvelle‑Aquitaine</a></li>
+<li><a href="#nouvelle-aquitaine">Nouvelle-Aquitaine</a></li>
 
 <li><a href="#occitanie">Occitanie</a></li>
 
 <li><a href="#paca">PACA</a></li>
-
-<li><a href="#normandie">Normandie</a></li>
 
 <li><a href="#corse">Corse</a></li>
 
@@ -417,54 +300,30 @@ placeholder="Rechercher une région, une ville, un établissement..."
 
 <div class="container">
 
-<!--
-COLLER ICI LE BLOC 2
-(BRETAGNE + PAYS DE LA LOIRE)
--->
-<section class="region" id="bretagne">
+<!-- BLOC B ICI -->
+ <section class="region" id="bretagne">
 
-<h2 class="region-title">
-🏴 Bretagne
-</h2>
+<h2 class="region-title">🏴 Bretagne</h2>
 
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+<h3 class="section-title">🏥 Centres ORL de référence</h3>
 
 <div class="grid">
 
 <div class="card">
-
 <h3>CHU de Brest - Hôpital Morvan</h3>
 
 <p>
-Centre hospitalier universitaire de référence pour les cancers ORL
-et le cancer du larynx.
+Centre hospitalier universitaire de référence pour les cancers ORL et le cancer du larynx.
 </p>
 
-<p>
-📍 Brest
-</p>
-
-<div class="tags">
-
-<span class="tag">Cancer du larynx</span>
-
-<span class="tag">Chirurgie ORL</span>
-
-<span class="tag">Laryngectomie</span>
-
-</div>
+<p>📍 Brest</p>
 
 <div class="links">
-
-<a
-class="btn btn-site"
+<a class="btn"
 href="https://www.chu-brest.fr/notre-offre-de-soin/orl"
 target="_blank">
 Site web
 </a>
-
 </div>
 
 </div>
@@ -474,162 +333,86 @@ Site web
 <h3>CHU de Rennes - Pontchaillou</h3>
 
 <p>
-Prise en charge des cancers ORL,
-du larynx
-et de la chirurgie cervico-faciale.
+Service ORL et chirurgie maxillo-faciale.
 </p>
 
-<p>
-📍 Rennes
-</p>
-
-<div class="tags">
-
-<span class="tag">Cancer du larynx</span>
-
-<span class="tag">Cancers ORL</span>
-
-<span class="tag">Chirurgie cervico-faciale</span>
-
-</div>
+<p>📍 Rennes</p>
 
 <div class="links">
-
-<a
-class="btn btn-site"
-https://www.chu-rennes.fr/je-cherche/medecins-349/godey-benoit-285.html
+<a class="btn"
+href="https://www.chu-rennes.fr/je-cherche/medecins-349/godey-benoit-285.html"
 target="_blank">
 Site web
 </a>
-
 </div>
 
 </div>
 
 </div>
 
+</section>
 
-<h3 class="section-title">
-🏠 Rééducation
-</h3>
+
+
+<section class="region" id="normandie">
+
+<h2 class="region-title">🏴 Normandie</h2>
+
+<h3 class="section-title">🏥 Centres ORL de référence</h3>
 
 <div class="grid">
 
 <div class="card">
 
-<h3>Fondation ILDYS</h3>
+<h3>CHU de Rouen Normandie</h3>
 
 <p>
-Centre de Perharidy à Roscoff,
-spécialisé en soins médicaux de réadaptation.
+Centre universitaire spécialisé dans les cancers ORL.
 </p>
 
-<p>
-📍 Roscoff
-</p>
+<p>📍 Rouen</p>
 
 <div class="links">
-
-<a
-class="btn btn-site"
-href="https://ildys.org"
+<a class="btn"
+href="https://www.chu-rouen.fr/"
 target="_blank">
 Site web
 </a>
-
 </div>
 
 </div>
-
-</div>
-
-
-<h3 class="section-title">
-❤️ Associations
-</h3>
-
-<div class="grid">
 
 <div class="card">
 
-<h3>Mutilés de la Voix Bretagne</h3>
+<h3>CHU de Caen Normandie</h3>
 
 <p>
-Association régionale de soutien
-aux personnes laryngectomisées.
+Prise en charge des cancers ORL et du larynx.
 </p>
 
-<p>
-📞 06 99 11 39 33
-</p>
-
-<p>
-✉️ jeanfrancoisvelly@orange.fr
-</p>
+<p>📍 Caen</p>
 
 <div class="links">
-
-<a
-class="btn btn-site"
-href="https://www.mutiles-voix.com/associations/bretagne/"
+<a class="btn"
+href="https://www.chu-caen.fr/"
 target="_blank">
 Site web
 </a>
-
 </div>
 
 </div>
 
 </div>
 
+</section>
 
-<h3 class="section-title">
-🛡 Défense des usagers
-</h3>
 
-<div class="grid">
 
-<div class="card">
+<section class="region" id="pays-de-la-loire">
 
-<h3>France Assos Santé Bretagne</h3>
+<h2 class="region-title">🏴 Pays de la Loire</h2>
 
-<p>
-📍 Rennes
-</p>
-
-<p>
-📞 02 99 53 56 79
-</p>
-
-<p>
-✉️ bretagne@france-assos-sante.org
-</p>
-
-<div class="links">
-
-<a
-class="btn btn-site"
-href="https://bretagne.france-assos-sante.org/"
-target="_blank">
-Site web
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section> 
-  <section class="region" id="pays-de-la-loire">
-
-<h2 class="region-title">
-🏴 Pays de la Loire
-</h2>
-
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+<h3 class="section-title">🏥 Centres ORL de référence</h3>
 
 <div class="grid">
 
@@ -638,97 +421,57 @@ Site web
 <h3>CHU de Nantes</h3>
 
 <p>
-Centre universitaire spécialisé
-dans les cancers ORL
-et le cancer du larynx.
+Centre universitaire spécialisé dans les cancers ORL et du larynx.
 </p>
 
-<p>
-📍 Nantes
-</p>
-
-<div class="tags">
-
-<span class="tag">Cancer du larynx</span>
-
-<span class="tag">Laryngectomie</span>
-
-<span class="tag">Chirurgie cervico-faciale</span>
-
-</div>
+<p>📍 Nantes</p>
 
 <div class="links">
-
-<a
-class="btn btn-site"
-href="https://www.chu-nantes.fr"
+<a class="btn"
+href="https://www.chu-nantes.fr/"
 target="_blank">
 Site web
 </a>
-
 </div>
 
 </div>
-
 
 <div class="card">
 
 <h3>CHU d'Angers</h3>
 
 <p>
-Prise en charge des cancers du larynx
-et accompagnement des patients laryngectomisés.
+Prise en charge des cancers du larynx.
 </p>
 
-<p>
-📍 Angers
-</p>
+<p>📍 Angers</p>
 
 <div class="links">
-
-<a
-class="btn btn-site"
-href="https://www.chu-angers.fr"
+<a class="btn"
+href="https://www.chu-angers.fr/"
 target="_blank">
 Site web
 </a>
-
 </div>
 
 </div>
-
-</div>
-
-
-<h3 class="section-title">
-🎗 Cancérologie spécialisée
-</h3>
-
-<div class="grid">
 
 <div class="card">
 
 <h3>Institut de Cancérologie de l'Ouest</h3>
 
 <p>
-Centre spécialisé dans les cancers ORL,
-la radiothérapie
-et l'oncologie tête et cou.
+Centre spécialisé dans les cancers ORL.
 </p>
 
-<p>
-📍 Nantes et Angers
-</p>
+<p>📍 Nantes / Angers</p>
 
 <div class="links">
-
-<a
-class="btn btn-site"
+<a class="btn"
 href="https://www.institut-cancerologie-ouest.com/"
 target="_blank">
 Site web
 </a>
-
 </div>
 
 </div>
@@ -736,15 +479,13 @@ Site web
 </div>
 
 </section>
-<section class="region" id="ile-de-france">
 
-<h2 class="region-title">
-🏴 Île‑de‑France
-</h2>
+<!-- BLOC C ICI -->
+ <section class="region" id="ile-de-france">
 
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+<h2 class="region-title">🏴 Île-de-France</h2>
+
+<h3 class="section-title">🏥 Centres spécialisés</h3>
 
 <div class="grid">
 
@@ -753,22 +494,13 @@ Site web
 <h3>Gustave Roussy</h3>
 
 <p>
-Centre européen de référence en cancérologie
-pour les cancers ORL et le cancer du larynx.
+Centre européen de référence en cancérologie.
 </p>
 
 <p>📍 Villejuif</p>
 
-<div class="tags">
-
-<span class="tag">Cancer du larynx</span>
-<span class="tag">Cancers ORL</span>
-<span class="tag">Chirurgie tête et cou</span>
-
-</div>
-
 <div class="links">
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.gustaveroussy.fr/"
 target="_blank">
 Site web
@@ -782,23 +514,14 @@ Site web
 <h3>Institut Curie</h3>
 
 <p>
-Prise en charge multidisciplinaire
-des cancers ORL.
+Prise en charge multidisciplinaire des cancers ORL.
 </p>
 
 <p>📍 Paris</p>
 
-<div class="tags">
-
-<span class="tag">Oncologie</span>
-<span class="tag">ORL</span>
-<span class="tag">Recherche</span>
-
-</div>
-
 <div class="links">
-<a class="btn btn-site"
-href="https://curie.fr"
+<a class="btn"
+href="https://www.curie.fr/"
 target="_blank">
 Site web
 </a>
@@ -808,44 +531,15 @@ Site web
 
 </div>
 
-<h3 class="section-title">
-🛡 Défense des usagers
-</h3>
+</section>
 
-<div class="grid">
 
-<div class="card">
 
-<h3>France Assos Santé Île‑de‑France</h3>
+<section class="region" id="hauts-de-france">
 
-<p>📍 Paris</p>
+<h2 class="region-title">🏴 Hauts-de-France</h2>
 
-<p>📞 01 43 29 92 38</p>
-
-<p>✉️ ile-de-france@france-assos-sante.org</p>
-
-<div class="links">
-<a class="btn btn-site"
-href="https://ile-de-france.france-assos-sante.org/"
-target="_blank">
-Site web
-</a>
-</div>
-
-</div>
-
-</div>
-
-</section> 
- <section class="region" id="hauts-de-france">
-
-<h2 class="region-title">
-🏴 Hauts‑de‑France
-</h2>
-
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+<h3 class="section-title">🏥 Centres spécialisés</h3>
 
 <div class="grid">
 
@@ -854,30 +548,17 @@ Site web
 <h3>CHU de Lille</h3>
 
 <p>
-Prise en charge des pathologies ORL,
-du larynx et des cancers des voies aérodigestives supérieures.
+Référence régionale en ORL et cancers des voies aérodigestives supérieures.
 </p>
 
 <p>📍 Lille</p>
 
-<div class="tags">
-
-<span class="tag">Cancer du larynx</span>
-<span class="tag">Orthophonie</span>
-<span class="tag">Déglutition</span>
-
-</div>
-
 <div class="links">
-
-<a class="btn btn-site"
-href="https://www.orl.chu-lille.fr/"
+<a class="btn"
+href="https://www.orl-chu-lille.fr/"
 target="_blank">
-
 Site web
-
 </a>
-
 </div>
 
 </div>
@@ -887,70 +568,32 @@ Site web
 <h3>Centre Oscar Lambret</h3>
 
 <p>
-Centre spécialisé dans les cancers ORL
-et les cancers tête et cou.
+Centre régional de lutte contre le cancer.
 </p>
 
 <p>📍 Lille</p>
 
 <div class="links">
-
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.centreoscarlambret.fr/"
 target="_blank">
-
 Site web
-
 </a>
-
 </div>
 
 </div>
 
 </div>
 
-<h3 class="section-title">
-🛡 Défense des usagers
-</h3>
+</section>
 
-<div class="grid">
 
-<div class="card">
 
-<h3>France Assos Santé Hauts‑de‑France</h3>
+<section class="region" id="grand-est">
 
-<p>📍 Lille</p>
+<h2 class="region-title">🏴 Grand Est</h2>
 
-<p>📞 03 66 32 18 88</p>
-
-<p>✉️ hauts-de-france@france-assos-sante.org</p>
-
-<div class="links">
-
-<a class="btn btn-site"
-href="https://hauts-de-france.france-assos-sante.org/"
-target="_blank">
-
-Site web
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>  
-  <section class="region" id="grand-est">
-
-<h2 class="region-title">
-🏴 Grand Est
-</h2>
-
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+<h3 class="section-title">🏥 Centres spécialisés</h3>
 
 <div class="grid">
 
@@ -964,27 +607,12 @@ Institut de Cancérologie Strasbourg Europe.
 
 <p>📍 Strasbourg</p>
 
-<div class="tags">
-
-<span class="tag">Cancer du larynx</span>
-
-<span class="tag">ORL</span>
-
-<span class="tag">Radiothérapie</span>
-
-</div>
-
 <div class="links">
-
-<a
-class="btn btn-site"
+<a class="btn"
 href="https://www.icans.eu/"
 target="_blank">
-
 Site web
-
 </a>
-
 </div>
 
 </div>
@@ -994,55 +622,17 @@ Site web
 <h3>CHU de Strasbourg</h3>
 
 <p>
-Service ORL de référence
-pour les cancers du larynx
-et les chirurgies spécialisées.
+Service ORL de référence pour les cancers du larynx.
 </p>
 
 <p>📍 Strasbourg</p>
 
 <div class="links">
-
-<a
-class="btn btn-site"
+<a class="btn"
 href="https://www.chru-strasbourg.fr/"
 target="_blank">
-
 Site web
-
 </a>
-
-</div>
-
-</div>
-
-</div>
-
-<h3 class="section-title">
-🛡 Défense des usagers
-</h3>
-
-<div class="grid">
-
-<div class="card">
-
-<h3>France Assos Santé Grand Est</h3>
-
-<p>📞 03 83 28 25 91</p>
-
-<p>✉️ grand-est@france-assos-sante.org</p>
-
-<div class="links">
-
-<a
-class="btn btn-site"
-href="https://grand-est.france-assos-sante.org/"
-target="_blank">
-
-Site web
-
-</a>
-
 </div>
 
 </div>
@@ -1050,15 +640,13 @@ Site web
 </div>
 
 </section>
-<section class="region" id="bourgogne-franche-comte">
 
-<h2 class="region-title">
-🏴 Bourgogne‑Franche‑Comté
-</h2>
+<!-- BLOC D ICI --> 
+ <section class="region" id="bourgogne-franche-comte">
 
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+<h2 class="region-title">🏴 Bourgogne‑Franche‑Comté</h2>
+
+<h3 class="section-title">🏥 Centres spécialisés</h3>
 
 <div class="grid">
 
@@ -1067,21 +655,13 @@ Site web
 <h3>CHU Dijon Bourgogne</h3>
 
 <p>
-Prise en charge des cancers du larynx,
-des cancers ORL
-et chirurgie cervico-faciale.
+Centre de référence pour les cancers ORL et du larynx.
 </p>
 
 <p>📍 Dijon</p>
 
-<div class="tags">
-<span class="tag">Cancer du larynx</span>
-<span class="tag">Chirurgie ORL</span>
-<span class="tag">Troubles de la voix</span>
-</div>
-
 <div class="links">
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.chu-dijon.fr/"
 target="_blank">
 Site web
@@ -1095,15 +675,13 @@ Site web
 <h3>CHU de Besançon</h3>
 
 <p>
-Prise en charge des cancers ORL,
-chirurgie reconstructrice
-et réhabilitation de la déglutition.
+Prise en charge des cancers ORL et rééducation spécialisée.
 </p>
 
 <p>📍 Besançon</p>
 
 <div class="links">
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.chu-besancon.fr/"
 target="_blank">
 Site web
@@ -1114,37 +692,15 @@ Site web
 
 </div>
 
-<h3 class="section-title">
-❤️ Association
-</h3>
+</section>
 
-<div class="grid">
 
-<div class="card">
 
-<h3>Les Mutilés de la Voix</h3>
+<section class="region" id="centre-val-de-loire">
 
-<p>
-Association de soutien
-aux personnes laryngectomisées.
-</p>
+<h2 class="region-title">🏴 Centre‑Val de Loire</h2>
 
-<p>📞 03 84 27 21 62</p>
-
-</div>
-
-</div>
-
-</section>   
-  <section class="region" id="centre-val-de-loire">
-
-<h2 class="region-title">
-🏴 Centre‑Val de Loire
-</h2>
-
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+<h3 class="section-title">🏥 Centres spécialisés</h3>
 
 <div class="grid">
 
@@ -1153,15 +709,13 @@ aux personnes laryngectomisées.
 <h3>CHRU de Tours</h3>
 
 <p>
-Centre universitaire spécialisé
-dans les cancers ORL
-et les cancers du larynx.
+Centre universitaire spécialisé dans les cancers ORL.
 </p>
 
 <p>📍 Tours</p>
 
 <div class="links">
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.chu-tours.fr/"
 target="_blank">
 Site web
@@ -1175,14 +729,13 @@ Site web
 <h3>CHR d'Orléans</h3>
 
 <p>
-Prise en charge des pathologies du larynx
-et chirurgie spécialisée ORL.
+Prise en charge spécialisée du larynx et des cancers ORL.
 </p>
 
 <p>📍 Orléans</p>
 
 <div class="links">
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.chr-orleans.fr/"
 target="_blank">
 Site web
@@ -1193,44 +746,15 @@ Site web
 
 </div>
 
-<h3 class="section-title">
-🛡 Défense des usagers
-</h3>
+</section>
 
-<div class="grid">
 
-<div class="card">
 
-<h3>France Assos Santé Centre‑Val de Loire</h3>
+<section class="region" id="nouvelle-aquitaine">
 
-<p>📞 02 38 80 88 92</p>
+<h2 class="region-title">🏴 Nouvelle‑Aquitaine</h2>
 
-<p>
-✉️ centre-valdeloire@france-assos-sante.org
-</p>
-
-<div class="links">
-<a class="btn btn-site"
-href="https://centre-valdeloire.france-assos-sante.org/"
-target="_blank">
-Site web
-</a>
-</div>
-
-</div>
-
-</div>
-
-</section>  
- <section class="region" id="nouvelle-aquitaine">
-
-<h2 class="region-title">
-🏴 Nouvelle‑Aquitaine
-</h2>
-
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+<h3 class="section-title">🏥 Centres spécialisés</h3>
 
 <div class="grid">
 
@@ -1239,33 +763,17 @@ Site web
 <h3>Institut Bergonié</h3>
 
 <p>
-Centre régional de lutte contre le cancer
-spécialisé notamment dans les cancers ORL.
+Centre régional de lutte contre le cancer.
 </p>
 
 <p>📍 Bordeaux</p>
 
-<div class="tags">
-
-<span class="tag">Cancer du larynx</span>
-
-<span class="tag">ORL</span>
-
-<span class="tag">Radiothérapie</span>
-
-</div>
-
 <div class="links">
-
-<a
-class="btn btn-site"
+<a class="btn"
 href="https://www.bergonie.fr/"
 target="_blank">
-
 Site web
-
 </a>
-
 </div>
 
 </div>
@@ -1275,72 +783,31 @@ Site web
 <h3>CHU de Bordeaux</h3>
 
 <p>
-Centre référent pour les cancers ORL
-et la réhabilitation fonctionnelle.
+Centre référent pour les cancers ORL.
 </p>
 
 <p>📍 Bordeaux</p>
 
 <div class="links">
-
-<a
-class="btn btn-site"
+<a class="btn"
 href="https://www.chu-bordeaux.fr/"
 target="_blank">
-
 Site web
-
 </a>
-
 </div>
 
 </div>
 
 </div>
 
-<h3 class="section-title">
-🛡 Défense des usagers
-</h3>
+</section>
 
-<div class="grid">
-
-<div class="card">
-
-<h3>France Assos Santé Nouvelle‑Aquitaine</h3>
-
-<p>📞 05 56 93 05 92</p>
-
-<p>
-✉️ nouvelle-aquitaine@france-assos-sante.org
-</p>
-
-<div class="links">
-
-<a
-class="btn btn-site"
-href="https://nouvelle-aquitaine.france-assos-sante.org/"
-target="_blank">
-
-Site web
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section> 
+<!-- BLOC E ICI -->
 <section class="region" id="occitanie">
 
-<h2 class="region-title">
-🏴 Occitanie
-</h2>
+<h2 class="region-title">🏴 Occitanie</h2>
 
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+<h3 class="section-title">🏥 Centres spécialisés</h3>
 
 <div class="grid">
 
@@ -1349,14 +816,13 @@ Site web
 <h3>IUCT Oncopole Toulouse</h3>
 
 <p>
-Institut de référence pour les cancers ORL
-et les cancers du larynx.
+Institut de référence pour les cancers ORL et du larynx.
 </p>
 
 <p>📍 Toulouse</p>
 
 <div class="links">
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.iuct-oncopole.fr/"
 target="_blank">
 Site web
@@ -1370,14 +836,13 @@ Site web
 <h3>Institut du Cancer de Montpellier</h3>
 
 <p>
-Centre spécialisé en oncologie ORL,
-chirurgie et radiothérapie.
+Centre spécialisé en oncologie ORL.
 </p>
 
 <p>📍 Montpellier</p>
 
 <div class="links">
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.icm.unicancer.fr/"
 target="_blank">
 Site web
@@ -1388,16 +853,15 @@ Site web
 
 </div>
 
-</section> 
-  <section class="region" id="paca">
+</section>
 
-<h2 class="region-title">
-🏴 Provence‑Alpes‑Côte d'Azur
-</h2>
 
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+
+<section class="region" id="paca">
+
+<h2 class="region-title">🏴 Provence-Alpes-Côte d'Azur</h2>
+
+<h3 class="section-title">🏥 Centres spécialisés</h3>
 
 <div class="grid">
 
@@ -1412,15 +876,11 @@ Centre régional de lutte contre le cancer.
 <p>📍 Marseille</p>
 
 <div class="links">
-
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.institutpaolicalmettes.fr/"
 target="_blank">
-
 Site web
-
 </a>
-
 </div>
 
 </div>
@@ -1430,103 +890,32 @@ Site web
 <h3>Centre Antoine Lacassagne</h3>
 
 <p>
-Centre spécialisé cancers ORL
-et tête et cou.
+Centre spécialisé dans les cancers ORL et tête-cou.
 </p>
 
 <p>📍 Nice</p>
 
 <div class="links">
-
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.centreantoinelacassagne.org/"
 target="_blank">
-
 Site web
-
 </a>
-
 </div>
 
 </div>
 
 </div>
 
-</section> 
- <section class="region" id="normandie">
+</section>
 
-<h2 class="region-title">
-🏴 Normandie
-</h2>
 
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
 
-<div class="grid">
-
-<div class="card">
-
-<h3>CHU de Rouen Normandie</h3>
-
-<p>
-Centre universitaire spécialisé
-dans les cancers ORL.
-</p>
-
-<p>📍 Rouen</p>
-
-<div class="links">
-
-<a class="btn btn-site"
-href="https://www.chu-rouen.fr/"
-target="_blank">
-
-Site web
-
-</a>
-
-</div>
-
-</div>
-
-<div class="card">
-
-<h3>CHU de Caen Normandie</h3>
-
-<p>
-Prise en charge des cancers du larynx
-et des cancers ORL.
-</p>
-
-<p>📍 Caen</p>
-
-<div class="links">
-
-<a class="btn btn-site"
-href="https://www.chu-caen.fr/"
-target="_blank">
-
-Site web
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section> 
 <section class="region" id="corse">
 
-<h2 class="region-title">
-🏴 Corse
-</h2>
+<h2 class="region-title">🏴 Corse</h2>
 
-<h3 class="section-title">
-🏥 Centres ORL de référence
-</h3>
+<h3 class="section-title">🏥 Centres spécialisés</h3>
 
 <div class="grid">
 
@@ -1535,23 +924,17 @@ Site web
 <h3>Centre Hospitalier d'Ajaccio</h3>
 
 <p>
-Prise en charge des cancers ORL,
-du larynx
-et des laryngectomisés.
+Prise en charge des pathologies ORL et du larynx.
 </p>
 
 <p>📍 Ajaccio</p>
 
 <div class="links">
-
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.ch-ajaccio.fr/"
 target="_blank">
-
 Site web
-
 </a>
-
 </div>
 
 </div>
@@ -1561,94 +944,53 @@ Site web
 <h3>Centre Hospitalier de Bastia</h3>
 
 <p>
-Activité ORL,
-oncologie
-et rééducation.
+Activité ORL, oncologie et rééducation.
 </p>
 
 <p>📍 Bastia</p>
 
 <div class="links">
-
-<a class="btn btn-site"
+<a class="btn"
 href="https://www.ch-bastia.fr/"
 target="_blank">
-
 Site web
-
 </a>
-
 </div>
 
 </div>
 
 </div>
 
-<h3 class="section-title">
-🛡 Défense des usagers
-</h3>
+</section>
 
-<div class="grid">
-
-<div class="card">
-
-<h3>France Assos Santé Corse</h3>
-
-<p>📞 04 20 13 04 39</p>
-
-<p>
-✉️ corse@france-assos-sante.org
-</p>
-
-<div class="links">
-
-<a class="btn btn-site"
-href="https://corse.france-assos-sante.org/"
-target="_blank">
-
-Site web
-
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-</section>  
+<!-- BLOC FINAL ICI -->  
 </div>
 
 <footer>
 
 <p>
 
-Laryngo Info France © 2026
+Laryngo Info France
 
 <br><br>
 
-Annuaire national des ressources relatives
-au cancer du larynx,
-à la laryngectomie,
-à la rééducation,
-aux associations de patients,
-aux centres ORL spécialisés
-et aux organismes d'accompagnement.
+Annuaire national des centres ORL,
+centres de cancérologie,
+associations de patients
+et ressources d'accompagnement.
 
 <br><br>
 
-Les informations sont fournies à titre informatif.
+Les informations publiées sont fournies à titre informatif.
 
-Vérifiez systématiquement les coordonnées
-et les modalités de prise en charge
-directement auprès des organismes concernés.
-
-Les décisions médicales doivent toujours être prises
-avec les professionnels de santé assurant votre suivi.
+Vérifiez systématiquement les coordonnées,
+les modalités de prise en charge
+et l'actualité des services directement auprès des organismes concernés.
 
 </p>
 
 </footer>
+
 <a href="#top" id="backToTop">
 ⬆
 </a>
@@ -1658,38 +1000,29 @@ avec les professionnels de santé assurant votre suivi.
 #backToTop{
 
 position:fixed;
-
 right:20px;
-
 bottom:20px;
 
 width:55px;
-
 height:55px;
 
 background:#0B5ED7;
-
 color:white;
-
-font-size:24px;
-
-font-weight:bold;
-
-text-decoration:none;
 
 border-radius:50%;
 
 display:flex;
-
 align-items:center;
-
 justify-content:center;
+
+text-decoration:none;
+
+font-size:24px;
+font-weight:bold;
 
 box-shadow:0 4px 12px rgba(0,0,0,.25);
 
 z-index:9999;
-
-transition:.3s;
 
 }
 
@@ -1697,11 +1030,10 @@ transition:.3s;
 
 background:#084298;
 
-transform:translateY(-3px);
-
 }
 
 </style>
+
 <script>
 
 const searchInput =
@@ -1725,14 +1057,10 @@ region.innerText.toLowerCase();
 if(
 text.indexOf(filter) > -1
 ){
-
 region.style.display="block";
-
 }
 else{
-
 region.style.display="none";
-
 }
 
 });
@@ -1744,4 +1072,4 @@ region.style.display="none";
 
 </body>
 
-</html>
+</html>  
