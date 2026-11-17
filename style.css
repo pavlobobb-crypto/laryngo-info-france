@@ -313,6 +313,69 @@ footer{
         padding:16px;
     }
 
+/* ==========================
+   TELEPHONES ET TABLETTES
+   VERSION 1.1
+========================== */
+
+@media (max-width:480px){
+
+    .hero h1{
+        font-size:1.7rem;
+    }
+
+    h2{
+        font-size:1.35rem;
+    }
+
+    h3{
+        font-size:1.15rem;
+    }
+
+    body{
+        line-height:1.8;
+    }
+
+    .card{
+        padding:18px;
+    }
+
+    ul{
+        padding-left:20px;
+    }
+
+}
+
+
+/* ==========================
+   TABLETTES
+========================== */
+
+@media (min-width:769px) and (max-width:1024px){
+
+    main{
+        padding:20px;
+    }
+
+    .grid{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
+
+
+/* ==========================
+   IPHONE SAFE AREA
+========================== */
+
+@supports (padding:max(0px)){
+
+    body{
+        padding-left:max(0px, env(safe-area-inset-left));
+        padding-right:max(0px, env(safe-area-inset-right));
+    }
+
+}
     .hero{
         padding:40px 18px;
     }
