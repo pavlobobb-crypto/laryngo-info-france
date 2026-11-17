@@ -1,1 +1,342 @@
+/* ==========================
+   BASE
+========================== */
 
+*{
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    font-family:system-ui, Arial, Helvetica, sans-serif;
+    margin:0;
+    padding:0;
+    background:#f7f1e8;
+    color:#35261d;
+    line-height:1.7;
+}
+
+/* ==========================
+   HERO
+========================== */
+
+.hero{
+    background:linear-gradient(
+        135deg,
+        #c96b4b 0%,
+        #e0a15d 55%,
+        #f4d9a6 100%
+    );
+    color:#ffffff;
+    text-align:center;
+    padding:60px 20px;
+    box-shadow:0 4px 18px rgba(0,0,0,0.10);
+}
+
+.hero h1{
+    color:#ffffff;
+    font-size:2.4rem;
+    margin-top:0;
+    margin-bottom:15px;
+    text-shadow:0 2px 6px rgba(0,0,0,0.25);
+}
+
+.hero p{
+    max-width:850px;
+    margin:auto;
+    font-size:1.1rem;
+}
+
+/* ==========================
+   CONTENU
+========================== */
+
+main{
+    max-width:1100px;
+    margin:auto;
+    padding:25px;
+}
+
+/* ==========================
+   TITRES
+========================== */
+
+h1,
+h2,
+h3{
+    color:#4a2a1a;
+}
+
+h2{
+    margin-top:35px;
+}
+
+/* ==========================
+   LIENS
+========================== */
+
+a{
+    color:#2f5d8c;
+    text-decoration:none;
+    transition:.2s;
+}
+
+a:hover{
+    color:#1b436b;
+    text-decoration:underline;
+}
+
+/* ==========================
+   ACCESSIBILITÉ
+========================== */
+
+a:focus,
+.button:focus,
+summary:focus{
+    outline:3px solid #2f5d8c;
+    outline-offset:3px;
+}
+
+/* ==========================
+   GRILLES
+========================== */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:22px;
+}
+
+/* ==========================
+   CARTES
+========================== */
+
+.card{
+    background:#fffdf8;
+    padding:22px;
+    border-radius:16px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    transition:.2s ease;
+}
+
+.card:hover{
+    transform:translateY(-4px);
+}
+
+/* Parcours patient */
+.patient{
+    border-left:6px solid #d7a34b;
+}
+
+/* Aidants */
+.aidant{
+    border-left:6px solid #c76986;
+}
+
+/* Secouristes */
+.secouriste{
+    border-left:6px solid #c74b4b;
+}
+
+/* Professionnels */
+.pro{
+    border-left:6px solid #2f5d8c;
+}
+
+/* Parcours rapide */
+.rapid{
+    border-left:6px solid #e0903e;
+}
+
+/* ==========================
+   BOUTONS
+========================== */
+
+.button{
+    display:inline-block;
+    margin-top:12px;
+    padding:14px 22px;
+    min-height:44px;
+    background:#f3cf65;
+    color:#3a2514;
+    font-weight:bold;
+    border-radius:10px;
+    border:2px solid #bf9440;
+    text-decoration:none;
+}
+
+.button:hover{
+    background:#f7da82;
+    text-decoration:none;
+}
+
+/* ==========================
+   URGENCE
+========================== */
+
+.emergency-box{
+    background:#fff0de;
+    border:3px solid #b00020;
+    border-radius:14px;
+    padding:20px;
+    margin-bottom:25px;
+}
+
+.emergency-box h2{
+    color:#b00020;
+    margin-top:0;
+}
+
+/* ==========================
+   DETAILS FAQ
+========================== */
+
+details{
+    background:#fffdf8;
+    padding:15px;
+    border-radius:14px;
+    margin-bottom:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.06);
+}
+
+summary{
+    font-weight:bold;
+    cursor:pointer;
+    font-size:1.05rem;
+}
+
+details p,
+details ul{
+    margin-top:15px;
+}
+
+/* ==========================
+   BOÎTES PERSONNALISÉES
+========================== */
+
+.faq-intro{
+    background:#fff2e1;
+    border-left:6px solid #c96b4b;
+    padding:20px;
+    border-radius:14px;
+    margin:20px 0;
+}
+
+.notice-box{
+    background:#eef6ef;
+    border-left:6px solid #6f9c77;
+    padding:20px;
+    border-radius:14px;
+    margin:20px 0;
+}
+
+.quick-nav{
+    background:#fff7ee;
+    border:1px solid #f1ded0;
+    padding:20px;
+    border-radius:14px;
+    margin:20px 0;
+}
+
+.quick-nav ul{
+    list-style:none;
+    padding-left:0;
+}
+
+.quick-nav li{
+    margin:10px 0;
+}
+
+/* ==========================
+   IMAGES
+========================== */
+
+img{
+    max-width:100%;
+    height:auto;
+    display:block;
+    border-radius:12px;
+}
+
+/* ==========================
+   LISTES
+========================== */
+
+ul{
+    padding-left:25px;
+}
+
+/* ==========================
+   ANCRES
+========================== */
+
+[id]{
+    scroll-margin-top:20px;
+}
+
+/* ==========================
+   SÉPARATEURS
+========================== */
+
+hr{
+    border:0;
+    border-top:1px solid #dfcfbe;
+    margin:30px 0;
+}
+
+/* ==========================
+   FOOTER
+========================== */
+
+footer{
+    text-align:center;
+    margin-top:40px;
+    padding:30px;
+    background:#ecd8c3;
+    border-top:2px solid #d5b89b;
+}
+
+/* ==========================
+   MOBILE
+========================== */
+
+@media (max-width:768px){
+
+    body{
+        font-size:16px;
+    }
+
+    main{
+        padding:16px;
+    }
+
+    .hero{
+        padding:40px 18px;
+    }
+
+    .hero h1{
+        font-size:2rem;
+    }
+
+    .hero p{
+        font-size:1rem;
+    }
+
+    .grid{
+        grid-template-columns:1fr;
+    }
+
+    .button{
+        width:100%;
+        display:block;
+        text-align:center;
+        margin-bottom:10px;
+    }
+
+    details{
+        padding:12px;
+    }
+}
