@@ -403,3 +403,50 @@ footer{
         padding:12px;
     }
 }
+/* ==========================
+   MENU MOBILE
+========================== */
+
+.mobile-menu{
+    background:#fffdf8;
+    border-bottom:2px solid #d5b89b;
+    padding:10px;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+.mobile-menu details{
+    margin:0;
+    background:none;
+    box-shadow:none;
+    border:none;
+    padding:0;
+}
+
+.mobile-menu summary{
+    font-size:1.2rem;
+    padding:10px;
+    background:#f3cf65;
+    border-radius:10px;
+    list-style:none;
+    text-align:center;
+}
+
+.mobile-menu ul{
+    list-style:none;
+    padding:0;
+    margin:10px 0 0 0;
+}
+
+.mobile-menu li{
+    margin:8px 0;
+}
+
+.mobile-menu a{
+    display:block;
+    padding:12px;
+    background:#fff;
+    border-radius:8px;
+    border:1px solid #e5d4c2;
+}
