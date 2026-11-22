@@ -537,6 +537,63 @@ font-weight:bold;
 box-shadow:0 4px 12px rgba(0,0,0,.25);
 z-index:9999;
 }
+/* ==========================
+   GALERIE EXPLICATIVE
+========================== */
+
+.gallery-v2-introduction,
+.gallery-caption,
+.medical-box,
+.highlight-box,
+.sources-box{
+    background:#fffdf8;
+    padding:22px;
+    border-radius:16px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    margin:25px 0;
+}
+
+.gallery-v2-introduction{
+    border-left:6px solid #d7a34b;
+}
+
+.medical-box{
+    background:#eef6ef;
+    border-left:6px solid #6f9c77;
+}
+
+.highlight-box{
+    background:#fff2e1;
+    border-left:6px solid #c96b4b;
+}
+
+.sources-box{
+    background:#f4efff;
+    border-left:6px solid #6f42c1;
+}
+
+.gallery-image{
+    margin:25px 0;
+    text-align:center;
+}
+
+.gallery-image img{
+    width:100%;
+    max-width:1000px;
+    height:auto;
+    display:block;
+    margin:auto;
+    border-radius:14px;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+.gallery-caption h3,
+.medical-box h3,
+.highlight-box h3,
+.sources-box h3{
+    margin-top:0;
+    color:#4a2a1a;
+}
 
 #backToTop:hover{
 background:#5d3b26;
