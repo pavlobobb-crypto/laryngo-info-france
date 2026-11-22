@@ -598,3 +598,57 @@ z-index:9999;
 #backToTop:hover{
 background:#5d3b26;
 }
+/* ==========================
+   GALERIE EXPLICATIVE
+========================== */
+
+.gallery-v2-introduction{
+    background:#fff7ee;
+    border:1px solid #f1ded0;
+    padding:20px;
+    border-radius:14px;
+    margin:20px 0;
+}
+
+.medical-box{
+    background:#eef6ef;
+    border-left:6px solid #6f9c77;
+    padding:20px;
+    border-radius:14px;
+    margin:20px 0;
+}
+
+.highlight-box{
+    background:#fff2e1;
+    border-left:6px solid #c96b4b;
+    padding:20px;
+    border-radius:14px;
+    margin:20px 0;
+}
+
+.sources-box{
+    background:#f4efff;
+    border-left:6px solid #6f42c1;
+    padding:20px;
+    border-radius:14px;
+    margin:20px 0;
+}
+
+.gallery-caption{
+    background:#fffdf8;
+    padding:20px;
+    border-radius:14px;
+    box-shadow:0 2px 8px rgba(0,0,0,.06);
+    margin:20px 0;
+}
+
+.gallery-image{
+    margin:20px 0;
+}
+
+.gallery-image img{
+    width:100%;
+    max-width:100%;
+    height:auto;
+    border-radius:12px;
+}
