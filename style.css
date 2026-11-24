@@ -598,3 +598,48 @@ z-index:9999;
 #backToTop:hover{
 background:#5d3b26;
 }
+.gallery-navigation{
+    background:#fff7ee;
+    border:1px solid #f1ded0;
+    padding:20px;
+    border-radius:14px;
+    margin:25px 0;
+}
+
+.gallery-navigation ul{
+    list-style:none;
+    padding:0;
+}
+
+.gallery-navigation li{
+    margin:10px 0;
+}
+
+.gallery-navigation a{
+    display:block;
+    background:#fffdf8;
+    padding:12px;
+    border-radius:10px;
+}
+
+.gallery-full-image{
+    margin:25px 0;
+}
+
+.gallery-full-image img{
+    width:100%;
+    max-width:1000px;
+    display:block;
+    margin:auto;
+    border-radius:14px;
+    box-shadow:0 4px 15px rgba(0,0,0,.15);
+}
+
+.visual-warning{
+    background:#fff2e1;
+    border-left:6px solid #c96b4b;
+    padding:20px;
+    border-radius:14px;
+    margin:20px 0;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+}
