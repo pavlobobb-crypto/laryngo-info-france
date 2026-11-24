@@ -694,3 +694,41 @@ background:#5d3b26;
     display:block;
     box-shadow:0 4px 12px rgba(0,0,0,.15);
 }
+/* ==========================
+   GALERIE EXPLICATIVE
+========================== */
+
+.gallery-v2-introduction,
+.gallery-caption,
+.medical-box,
+.highlight-box,
+.sources-box {
+    background: #f4eadc;
+    padding: 22px;
+    border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin: 25px 0;
+}
+
+.gallery-v2-introduction {
+    border-left: 6px solid #d7a34b;
+}
+
+.medical-box {
+    border-left: 6px solid #b65c3a;
+}
+
+.highlight-box {
+    border-left: 6px solid #4d7a6d;
+}
+
+.sources-box {
+    border-left: 6px solid #6b5b95;
+}
+
+.gallery-caption {
+    text-align: center;
+    font-style: italic;
+    color: #555;
+    font-size: 0.95rem;
+}
