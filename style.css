@@ -732,3 +732,23 @@ background:#5d3b26;
     color: #555;
     font-size: 0.95rem;
 }
+.message-central{
+  background:#fff0de;
+  border:3px solid #b00020;
+  border-radius:14px;
+  padding:20px;
+  margin:20px 0;
+  text-align:center;
+  font-weight:bold;
+  overflow-wrap:break-word;
+  word-wrap:break-word;
+}
+
+@media (max-width:480px){
+
+.message-central{
+  font-size:1.1rem;
+  padding:15px;
+}
+
+}
