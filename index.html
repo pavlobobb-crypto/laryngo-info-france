@@ -433,9 +433,20 @@ Information • Prévention • Accompagnement
 
 </main>
 
-
 <a href="#" id="backToTop" aria-label="Retour en haut de la page">
+
 ⬆
+
 </a>
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js")
+    .then(() => console.log("Service Worker enregistré"))
+    .catch(error => console.log("Erreur Service Worker :", error));
+}
+</script>
+
 </body>
+
 </html>
