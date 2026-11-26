@@ -614,13 +614,7 @@ background:#5d3b26;
     box-shadow:0 4px 15px rgba(0,0,0,.15);
 }
 
-.visual-warning{
-    background:#fff2e1;
-    border-left:6px solid #c96b4b;
-    padding:20px;
-    border-radius:14px;
-    margin:20px 0;
-    box-shadow:0 4px 12px rgba(0,0,0,.08);
+
 }
 .gallery-navigation{
     background:#fff7ee;
