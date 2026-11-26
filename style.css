@@ -601,18 +601,7 @@ background:#5d3b26;
 
 }
 
-.gallery-full-image{
-    margin:25px 0;
-}
 
-.gallery-full-image img{
-    width:100%;
-    max-width:1000px;
-    display:block;
-    margin:auto;
-    border-radius:14px;
-    box-shadow:0 4px 15px rgba(0,0,0,.15);
-}
 
 
 }
