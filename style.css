@@ -598,28 +598,7 @@ z-index:9999;
 #backToTop:hover{
 background:#5d3b26;
 }
-.gallery-navigation{
-    background:#fff7ee;
-    border:1px solid #f1ded0;
-    padding:20px;
-    border-radius:14px;
-    margin:25px 0;
-}
 
-.gallery-navigation ul{
-    list-style:none;
-    padding:0;
-}
-
-.gallery-navigation li{
-    margin:10px 0;
-}
-
-.gallery-navigation a{
-    display:block;
-    background:#fffdf8;
-    padding:12px;
-    border-radius:10px;
 }
 
 .gallery-full-image{
