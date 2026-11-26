@@ -1,8 +1,40 @@
-const CACHE_NAME = "laryngo-info-france-v1";
-
+const CACHE_NAME = "laryngo-info-france-v2";
 const URLS_TO_CACHE = [
   "./",
   "./index.html",
+
+  "./patient.html",
+  "./je-viens-dapprendre-mon-cancer.html",
+  "./questions-a-mon-orl.html",
+  "./operation.html",
+  "./je-viens-detre-laryngectomise.html",
+  "./ma-nouvelle-vie.html",
+  "./materiel.html",
+
+  "./voix.html",
+  "./aides-droits.html",
+  "./annuaire-national.html",
+  "./ressources.html",
+  "./faq.html",
+  "./carte-urgence.html",
+
+  "./aidants.html",
+
+  "./professionnels.html",
+  "./contributions-professionnels.html",
+
+  "./urgence.html",
+  "./secouristes.html",
+
+  "./temoignages.html",
+  "./sources.html",
+  "./contact.html",
+  "./accessibilite.html",
+  "./mentions-legales.html",
+  "./confidentialite.html",
+  "./remerciements.html",
+  "./plan-du-site.html",
+
   "./style.css",
   "./manifest.json",
   "./favicon.svg"
