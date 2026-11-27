@@ -1,4 +1,4 @@
-const CACHE_NAME = "laryngo-info-france-v23";
+const CACHE_NAME = "laryngo-info-france-v24";
 const URLS_TO_CACHE = [
   "./",
   "./index.html",
