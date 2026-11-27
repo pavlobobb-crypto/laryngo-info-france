@@ -87,7 +87,11 @@ a:hover{
     color:#1b436b;
     text-decoration:underline;
 }
-
+main li a{
+    color:#1b436b;
+    font-weight:bold;
+    text-decoration:underline;
+}
 /* ==========================
    ACCESSIBILITÉ
 ========================== */
